@@ -1,13 +1,13 @@
 ## gcp_sendgrid_smtp_config
 
-Google Cloud Composer (Airflow v2.1.1) SMTP Email Configuration
+Google Cloud Composer (Airflow v2) SMTP Email Configuration
 
 <img src="./img/gcp_airflow.png">
 
 [Option 1](https://console.cloud.google.com/marketplace/product/sendgrid-app/sendgrid-email): setup SendGrid within a single project on GCP (free for 12,000 emails/mo)
 
 [Option 2](https://signup.sendgrid.com): setup a dedicated SendGrid account outside of GCP (free for 100 emails/day = ~3000/mo)
-then add config to Airflow environements. 
+then add config to Airflow environments. 
 
 Both options require adding DNS entries to your domain provider, the benefit of Option 2 is only we only need to set this up once across more than one cloud project. 
 
